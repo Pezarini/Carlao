@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Meta tags Obrigatorias-->
+    <meta charset="utf-8"
+    <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Estoque</title>
+    <style>
+    body{
+        background-color: rgb(255, 255, 255)
+    }  
+
+    h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    }
+    
+    </style>
+
+    
+</head>
+<body>
+<h1>Sistema de estoque</h1>
+<div class "container">
+    <div class="row">
+      <div class="col-1">
+
+      </div>
+      <div class="col-10">
+        <h2>Incluir produtos</h2>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Codigo</label>
+            <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">            
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Tênis</label>
+            <input type="text" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Quantidade</label>
+            <input type="number" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">            
+          <button type="submit" class="btn btn-primary">Save</button>
+        </form>      
+      </div>
+        
+        
+        <div class="col-1">
+           
+        </div>       
+    </div>
+    <div class="row">
+      <div class="col-1">
+
+      </div>
+      <div class="col-10">
+        <h2>Produtos cadastrados</h2>
+        <div id="divBusca">
+          <form class="row g-3">
+           
+            <div class="col-auto">
+               <input type="text" class="form-control" id="inputPassword2" placeholder="Digite o produto">
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary mb-3">Search</button>
+            </div>
+          </form>
+        </div>   
+          <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Codigo</th>
+                  <th scope="col">TÊNIS</th>
+                  <th scope="col">QUANTIDADE EM ESTOQUE</th>
+                  
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>AIR JORDAN 4 "LOW"</td>
+                  <td>7</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>VAPORMAX PLUS</td>
+                  <td>10</td>
+                  
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>YEEZY ZEBRA</td>
+                  <td>5</td>
+                  
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>AIR FORCE 1</td>
+                  <td>16</td>
+                  
+                </tr>
+              </tbody>
+            </table> 
+      </div>
+      <div class="col-1">
+
+      </div>
+    </div>
+
+
+</div>
+<!--JavaScript (Opcional)-->
+<!--JQuery primeiro, depois Popper.js, depois Bootstrap JS-->
+<script src="js/jquery-3.6.0.js></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
